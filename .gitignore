@@ -1,1 +1,20 @@
+# Compiled files
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+
+# Module directory
+.terraform/
+
+# Variable values for development
+terraform.tfvars
+
+# secret
+
+*_override.tf
+!provider_override.tf
+/terraform/provider_override.tf
+
+# vim
 *.swp
+*.zip
