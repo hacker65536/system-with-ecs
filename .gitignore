@@ -14,6 +14,8 @@ terraform.tfvars
 *_override.tf
 !provider_override.tf
 /terraform/provider_override.tf
+!tags_override.tf
+/terraform/tags_override.tf
 
 # vim
 *.swp
