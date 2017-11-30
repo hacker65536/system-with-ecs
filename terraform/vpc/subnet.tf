@@ -14,8 +14,14 @@ variable "subnet_tags" {
     {
       Public = true
     },
-    {},
-    {},
+    {
+      Ecs     = true
+      Private = true
+    },
+    {
+      Ecs     = true
+      Private = true
+    },
     {},
     {},
   ]
